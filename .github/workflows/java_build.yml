@@ -19,5 +19,5 @@ jobs:
         architecture: x64 
     - name: Compile primary JAVA file
       working-directory: ./src
-      run: javac DemonstrateCachingAndDataPrefetching.java
+      run: javac -Xint DemonstrateCachingAndDataPrefetching.java
       
