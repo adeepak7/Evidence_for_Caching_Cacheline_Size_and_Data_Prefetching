@@ -20,3 +20,6 @@ jobs:
     - name: Compile primary JAVA file
       working-directory: ./src
       run: javac DemonstrateCachingAndDataPrefetching.java
+    - name: Run the Java File by disabling compiler optimizations using -Xint
+      working-directory: ./src
+      run: java -Xint DemonstrateCachingAndDataPrefetching IntelProcessor
