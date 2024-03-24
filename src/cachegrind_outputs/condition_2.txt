@@ -1,0 +1,234 @@
+// Output to prove the Condition 2 listed in the paper
+
+==13202== Cachegrind, a cache and branch-prediction profiler
+==13202== Copyright (C) 2002-2017, and GNU GPL'd, by Nicholas Nethercote et al.
+==13202== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==13202== Command: ./a.out
+==13202== 
+--13202-- warning: L3 cache found, using its data for the LL simulation.
+J:0 Address of p[j]: 0x1fff0004a0 Value of p[j]: 977
+J:1 Address of p[j]: 0x1fff0004a4 Value of p[j]: 978
+J:2 Address of p[j]: 0x1fff0004a8 Value of p[j]: 979
+J:3 Address of p[j]: 0x1fff0004ac Value of p[j]: 980
+J:4 Address of p[j]: 0x1fff0004b0 Value of p[j]: 981
+Single run time: 25023314
+---------------------------------------------
+J:0 Address of p[j]: 0x1fff0004a0 Value of p[j]: 977
+J:1 Address of p[j]: 0x1fff0004a4 Value of p[j]: 978
+J:2 Address of p[j]: 0x1fff0004a8 Value of p[j]: 979
+J:3 Address of p[j]: 0x1fff0004ac Value of p[j]: 980
+J:4 Address of p[j]: 0x1fff0004b0 Value of p[j]: 981
+Single run time: 243594
+---------------------------------------------
+J:0 Address of p[j]: 0x1fff0004a0 Value of p[j]: 977
+J:1 Address of p[j]: 0x1fff0004a4 Value of p[j]: 978
+J:2 Address of p[j]: 0x1fff0004a8 Value of p[j]: 979
+J:3 Address of p[j]: 0x1fff0004ac Value of p[j]: 980
+J:4 Address of p[j]: 0x1fff0004b0 Value of p[j]: 981
+Single run time: 249891
+---------------------------------------------
+J:0 Address of p[j]: 0x1fff0004a0 Value of p[j]: 977
+J:1 Address of p[j]: 0x1fff0004a4 Value of p[j]: 978
+J:2 Address of p[j]: 0x1fff0004a8 Value of p[j]: 979
+J:3 Address of p[j]: 0x1fff0004ac Value of p[j]: 980
+J:4 Address of p[j]: 0x1fff0004b0 Value of p[j]: 981
+Single run time: 209490
+---------------------------------------------
+J:0 Address of p[j]: 0x1fff0004a0 Value of p[j]: 977
+J:1 Address of p[j]: 0x1fff0004a4 Value of p[j]: 978
+J:2 Address of p[j]: 0x1fff0004a8 Value of p[j]: 979
+J:3 Address of p[j]: 0x1fff0004ac Value of p[j]: 980
+J:4 Address of p[j]: 0x1fff0004b0 Value of p[j]: 981
+Single run time: 209679
+---------------------------------------------
+J:0 Address of p[j]: 0x1fff0004a0 Value of p[j]: 977
+J:1 Address of p[j]: 0x1fff0004a4 Value of p[j]: 978
+J:2 Address of p[j]: 0x1fff0004a8 Value of p[j]: 979
+J:3 Address of p[j]: 0x1fff0004ac Value of p[j]: 980
+J:4 Address of p[j]: 0x1fff0004b0 Value of p[j]: 981
+Single run time: 207169
+---------------------------------------------
+J:0 Address of p[j]: 0x1fff0004a0 Value of p[j]: 977
+J:1 Address of p[j]: 0x1fff0004a4 Value of p[j]: 978
+J:2 Address of p[j]: 0x1fff0004a8 Value of p[j]: 979
+J:3 Address of p[j]: 0x1fff0004ac Value of p[j]: 980
+J:4 Address of p[j]: 0x1fff0004b0 Value of p[j]: 981
+Single run time: 202394
+---------------------------------------------
+J:0 Address of p[j]: 0x1fff0004a0 Value of p[j]: 977
+J:1 Address of p[j]: 0x1fff0004a4 Value of p[j]: 978
+J:2 Address of p[j]: 0x1fff0004a8 Value of p[j]: 979
+J:3 Address of p[j]: 0x1fff0004ac Value of p[j]: 980
+J:4 Address of p[j]: 0x1fff0004b0 Value of p[j]: 981
+Single run time: 205522
+---------------------------------------------
+J:0 Address of p[j]: 0x1fff0004a0 Value of p[j]: 977
+J:1 Address of p[j]: 0x1fff0004a4 Value of p[j]: 978
+J:2 Address of p[j]: 0x1fff0004a8 Value of p[j]: 979
+J:3 Address of p[j]: 0x1fff0004ac Value of p[j]: 980
+J:4 Address of p[j]: 0x1fff0004b0 Value of p[j]: 981
+Single run time: 207312
+---------------------------------------------
+J:0 Address of p[j]: 0x1fff0004a0 Value of p[j]: 977
+J:1 Address of p[j]: 0x1fff0004a4 Value of p[j]: 978
+J:2 Address of p[j]: 0x1fff0004a8 Value of p[j]: 979
+J:3 Address of p[j]: 0x1fff0004ac Value of p[j]: 980
+J:4 Address of p[j]: 0x1fff0004b0 Value of p[j]: 981
+Single run time: 207016
+---------------------------------------------
+J:0 Address of p[j]: 0x1fff0004a0 Value of p[j]: 977
+J:1 Address of p[j]: 0x1fff0004a4 Value of p[j]: 978
+J:2 Address of p[j]: 0x1fff0004a8 Value of p[j]: 979
+J:3 Address of p[j]: 0x1fff0004ac Value of p[j]: 980
+J:4 Address of p[j]: 0x1fff0004b0 Value of p[j]: 981
+Single run time: 205035
+---------------------------------------------
+J:0 Address of p[j]: 0x1fff0004a0 Value of p[j]: 977
+J:1 Address of p[j]: 0x1fff0004a4 Value of p[j]: 978
+J:2 Address of p[j]: 0x1fff0004a8 Value of p[j]: 979
+J:3 Address of p[j]: 0x1fff0004ac Value of p[j]: 980
+J:4 Address of p[j]: 0x1fff0004b0 Value of p[j]: 981
+Single run time: 205819
+---------------------------------------------
+J:0 Address of p[j]: 0x1fff0004a0 Value of p[j]: 977
+J:1 Address of p[j]: 0x1fff0004a4 Value of p[j]: 978
+J:2 Address of p[j]: 0x1fff0004a8 Value of p[j]: 979
+J:3 Address of p[j]: 0x1fff0004ac Value of p[j]: 980
+J:4 Address of p[j]: 0x1fff0004b0 Value of p[j]: 981
+Single run time: 206898
+---------------------------------------------
+J:0 Address of p[j]: 0x1fff0004a0 Value of p[j]: 977
+J:1 Address of p[j]: 0x1fff0004a4 Value of p[j]: 978
+J:2 Address of p[j]: 0x1fff0004a8 Value of p[j]: 979
+J:3 Address of p[j]: 0x1fff0004ac Value of p[j]: 980
+J:4 Address of p[j]: 0x1fff0004b0 Value of p[j]: 981
+Single run time: 215500
+---------------------------------------------
+J:0 Address of p[j]: 0x1fff0004a0 Value of p[j]: 977
+J:1 Address of p[j]: 0x1fff0004a4 Value of p[j]: 978
+J:2 Address of p[j]: 0x1fff0004a8 Value of p[j]: 979
+J:3 Address of p[j]: 0x1fff0004ac Value of p[j]: 980
+J:4 Address of p[j]: 0x1fff0004b0 Value of p[j]: 981
+Single run time: 205862
+---------------------------------------------
+J:0 Address of p[j]: 0x1fff0004a0 Value of p[j]: 977
+J:1 Address of p[j]: 0x1fff0004a4 Value of p[j]: 978
+J:2 Address of p[j]: 0x1fff0004a8 Value of p[j]: 979
+J:3 Address of p[j]: 0x1fff0004ac Value of p[j]: 980
+J:4 Address of p[j]: 0x1fff0004b0 Value of p[j]: 981
+Single run time: 206126
+---------------------------------------------
+J:0 Address of p[j]: 0x1fff0004a0 Value of p[j]: 977
+J:1 Address of p[j]: 0x1fff0004a4 Value of p[j]: 978
+J:2 Address of p[j]: 0x1fff0004a8 Value of p[j]: 979
+J:3 Address of p[j]: 0x1fff0004ac Value of p[j]: 980
+J:4 Address of p[j]: 0x1fff0004b0 Value of p[j]: 981
+Single run time: 206810
+---------------------------------------------
+J:0 Address of p[j]: 0x1fff0004a0 Value of p[j]: 977
+J:1 Address of p[j]: 0x1fff0004a4 Value of p[j]: 978
+J:2 Address of p[j]: 0x1fff0004a8 Value of p[j]: 979
+J:3 Address of p[j]: 0x1fff0004ac Value of p[j]: 980
+J:4 Address of p[j]: 0x1fff0004b0 Value of p[j]: 981
+Single run time: 207620
+---------------------------------------------
+J:0 Address of p[j]: 0x1fff0004a0 Value of p[j]: 977
+J:1 Address of p[j]: 0x1fff0004a4 Value of p[j]: 978
+J:2 Address of p[j]: 0x1fff0004a8 Value of p[j]: 979
+J:3 Address of p[j]: 0x1fff0004ac Value of p[j]: 980
+J:4 Address of p[j]: 0x1fff0004b0 Value of p[j]: 981
+Single run time: 206533
+---------------------------------------------
+J:0 Address of p[j]: 0x1fff0004a0 Value of p[j]: 977
+J:1 Address of p[j]: 0x1fff0004a4 Value of p[j]: 978
+J:2 Address of p[j]: 0x1fff0004a8 Value of p[j]: 979
+J:3 Address of p[j]: 0x1fff0004ac Value of p[j]: 980
+J:4 Address of p[j]: 0x1fff0004b0 Value of p[j]: 981
+Single run time: 206473
+---------------------------------------------
+J:0 Address of p[j]: 0x1fff0004a0 Value of p[j]: 977
+J:1 Address of p[j]: 0x1fff0004a4 Value of p[j]: 978
+J:2 Address of p[j]: 0x1fff0004a8 Value of p[j]: 979
+J:3 Address of p[j]: 0x1fff0004ac Value of p[j]: 980
+J:4 Address of p[j]: 0x1fff0004b0 Value of p[j]: 981
+Single run time: 207186
+---------------------------------------------
+J:0 Address of p[j]: 0x1fff0004a0 Value of p[j]: 977
+J:1 Address of p[j]: 0x1fff0004a4 Value of p[j]: 978
+J:2 Address of p[j]: 0x1fff0004a8 Value of p[j]: 979
+J:3 Address of p[j]: 0x1fff0004ac Value of p[j]: 980
+J:4 Address of p[j]: 0x1fff0004b0 Value of p[j]: 981
+Single run time: 209517
+---------------------------------------------
+J:0 Address of p[j]: 0x1fff0004a0 Value of p[j]: 977
+J:1 Address of p[j]: 0x1fff0004a4 Value of p[j]: 978
+J:2 Address of p[j]: 0x1fff0004a8 Value of p[j]: 979
+J:3 Address of p[j]: 0x1fff0004ac Value of p[j]: 980
+J:4 Address of p[j]: 0x1fff0004b0 Value of p[j]: 981
+Single run time: 206862
+---------------------------------------------
+J:0 Address of p[j]: 0x1fff0004a0 Value of p[j]: 977
+J:1 Address of p[j]: 0x1fff0004a4 Value of p[j]: 978
+J:2 Address of p[j]: 0x1fff0004a8 Value of p[j]: 979
+J:3 Address of p[j]: 0x1fff0004ac Value of p[j]: 980
+J:4 Address of p[j]: 0x1fff0004b0 Value of p[j]: 981
+Single run time: 209459
+---------------------------------------------
+J:0 Address of p[j]: 0x1fff0004a0 Value of p[j]: 977
+J:1 Address of p[j]: 0x1fff0004a4 Value of p[j]: 978
+J:2 Address of p[j]: 0x1fff0004a8 Value of p[j]: 979
+J:3 Address of p[j]: 0x1fff0004ac Value of p[j]: 980
+J:4 Address of p[j]: 0x1fff0004b0 Value of p[j]: 981
+Single run time: 208885
+---------------------------------------------
+J:0 Address of p[j]: 0x1fff0004a0 Value of p[j]: 977
+J:1 Address of p[j]: 0x1fff0004a4 Value of p[j]: 978
+J:2 Address of p[j]: 0x1fff0004a8 Value of p[j]: 979
+J:3 Address of p[j]: 0x1fff0004ac Value of p[j]: 980
+J:4 Address of p[j]: 0x1fff0004b0 Value of p[j]: 981
+Single run time: 204514
+---------------------------------------------
+J:0 Address of p[j]: 0x1fff0004a0 Value of p[j]: 977
+J:1 Address of p[j]: 0x1fff0004a4 Value of p[j]: 978
+J:2 Address of p[j]: 0x1fff0004a8 Value of p[j]: 979
+J:3 Address of p[j]: 0x1fff0004ac Value of p[j]: 980
+J:4 Address of p[j]: 0x1fff0004b0 Value of p[j]: 981
+Single run time: 203025
+---------------------------------------------
+J:0 Address of p[j]: 0x1fff0004a0 Value of p[j]: 977
+J:1 Address of p[j]: 0x1fff0004a4 Value of p[j]: 978
+J:2 Address of p[j]: 0x1fff0004a8 Value of p[j]: 979
+J:3 Address of p[j]: 0x1fff0004ac Value of p[j]: 980
+J:4 Address of p[j]: 0x1fff0004b0 Value of p[j]: 981
+Single run time: 206999
+---------------------------------------------
+J:0 Address of p[j]: 0x1fff0004a0 Value of p[j]: 977
+J:1 Address of p[j]: 0x1fff0004a4 Value of p[j]: 978
+J:2 Address of p[j]: 0x1fff0004a8 Value of p[j]: 979
+J:3 Address of p[j]: 0x1fff0004ac Value of p[j]: 980
+J:4 Address of p[j]: 0x1fff0004b0 Value of p[j]: 981
+Single run time: 206760
+---------------------------------------------
+J:0 Address of p[j]: 0x1fff0004a0 Value of p[j]: 977
+J:1 Address of p[j]: 0x1fff0004a4 Value of p[j]: 978
+J:2 Address of p[j]: 0x1fff0004a8 Value of p[j]: 979
+J:3 Address of p[j]: 0x1fff0004ac Value of p[j]: 980
+J:4 Address of p[j]: 0x1fff0004b0 Value of p[j]: 981
+Single run time: 222339
+---------------------------------------------
+==13202== 
+==13202== I   refs:      2,886,428
+==13202== I1  misses:        1,890
+==13202== LLi misses:        1,793
+==13202== I1  miss rate:      0.07%
+==13202== LLi miss rate:      0.06%
+==13202== 
+==13202== D   refs:        936,602  (678,799 rd   + 257,803 wr)
+==13202== D1  misses:       16,860  ( 14,386 rd   +   2,474 wr)
+==13202== LLd misses:        9,848  (  8,267 rd   +   1,581 wr)
+==13202== D1  miss rate:       1.8% (    2.1%     +     1.0%  )
+==13202== LLd miss rate:       1.1% (    1.2%     +     0.6%  )
+==13202== 
+==13202== LL refs:          18,750  ( 16,276 rd   +   2,474 wr)
+==13202== LL misses:        11,641  ( 10,060 rd   +   1,581 wr)
+==13202== LL miss rate:        0.3% (    0.3%     +     0.6%  )
