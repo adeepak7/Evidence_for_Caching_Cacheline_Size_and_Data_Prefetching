@@ -1,0 +1,94 @@
+// Output to prove the Condition 1 listed in the paper
+
+==8603== Cachegrind, a cache and branch-prediction profiler
+==8603== Copyright (C) 2002-2017, and GNU GPL'd, by Nicholas Nethercote et al.
+==8603== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==8603== Command: ./a.out
+==8603== 
+--8603-- warning: L3 cache found, using its data for the LL simulation.
+J:0 Address of p[j]: 0x1fff0004a0 Value of p[j]: 977
+J:1 Address of p[j]: 0x1fff0004a4 Value of p[j]: 978
+J:2 Address of p[j]: 0x1fff0004a8 Value of p[j]: 979
+J:3 Address of p[j]: 0x1fff0004ac Value of p[j]: 980
+J:4 Address of p[j]: 0x1fff0004b0 Value of p[j]: 981
+Single run time: 24321467
+---------------------------------------------
+J:0 Address of p[j]: 0x1fff0004a0 Value of p[j]: 977
+J:1 Address of p[j]: 0x1fff0004a4 Value of p[j]: 978
+J:2 Address of p[j]: 0x1fff0004a8 Value of p[j]: 979
+J:3 Address of p[j]: 0x1fff0004ac Value of p[j]: 980
+J:4 Address of p[j]: 0x1fff0004b0 Value of p[j]: 981
+Single run time: 278811
+---------------------------------------------
+J:0 Address of p[j]: 0x1fff0004a0 Value of p[j]: 977
+J:1 Address of p[j]: 0x1fff0004a4 Value of p[j]: 978
+J:2 Address of p[j]: 0x1fff0004a8 Value of p[j]: 979
+J:3 Address of p[j]: 0x1fff0004ac Value of p[j]: 980
+J:4 Address of p[j]: 0x1fff0004b0 Value of p[j]: 981
+Single run time: 218299
+---------------------------------------------
+J:0 Address of p[j]: 0x1fff0004a0 Value of p[j]: 977
+J:1 Address of p[j]: 0x1fff0004a4 Value of p[j]: 978
+J:2 Address of p[j]: 0x1fff0004a8 Value of p[j]: 979
+J:3 Address of p[j]: 0x1fff0004ac Value of p[j]: 980
+J:4 Address of p[j]: 0x1fff0004b0 Value of p[j]: 981
+Single run time: 209106
+---------------------------------------------
+J:0 Address of p[j]: 0x1fff0004a0 Value of p[j]: 977
+J:1 Address of p[j]: 0x1fff0004a4 Value of p[j]: 978
+J:2 Address of p[j]: 0x1fff0004a8 Value of p[j]: 979
+J:3 Address of p[j]: 0x1fff0004ac Value of p[j]: 980
+J:4 Address of p[j]: 0x1fff0004b0 Value of p[j]: 981
+Single run time: 305022
+---------------------------------------------
+J:0 Address of p[j]: 0x1fff0004a0 Value of p[j]: 977
+J:1 Address of p[j]: 0x1fff0004a4 Value of p[j]: 978
+J:2 Address of p[j]: 0x1fff0004a8 Value of p[j]: 979
+J:3 Address of p[j]: 0x1fff0004ac Value of p[j]: 980
+J:4 Address of p[j]: 0x1fff0004b0 Value of p[j]: 981
+Single run time: 271451
+---------------------------------------------
+J:0 Address of p[j]: 0x1fff0004a0 Value of p[j]: 977
+J:1 Address of p[j]: 0x1fff0004a4 Value of p[j]: 978
+J:2 Address of p[j]: 0x1fff0004a8 Value of p[j]: 979
+J:3 Address of p[j]: 0x1fff0004ac Value of p[j]: 980
+J:4 Address of p[j]: 0x1fff0004b0 Value of p[j]: 981
+Single run time: 225198
+---------------------------------------------
+J:0 Address of p[j]: 0x1fff0004a0 Value of p[j]: 977
+J:1 Address of p[j]: 0x1fff0004a4 Value of p[j]: 978
+J:2 Address of p[j]: 0x1fff0004a8 Value of p[j]: 979
+J:3 Address of p[j]: 0x1fff0004ac Value of p[j]: 980
+J:4 Address of p[j]: 0x1fff0004b0 Value of p[j]: 981
+Single run time: 226691
+---------------------------------------------
+J:0 Address of p[j]: 0x1fff0004a0 Value of p[j]: 977
+J:1 Address of p[j]: 0x1fff0004a4 Value of p[j]: 978
+J:2 Address of p[j]: 0x1fff0004a8 Value of p[j]: 979
+J:3 Address of p[j]: 0x1fff0004ac Value of p[j]: 980
+J:4 Address of p[j]: 0x1fff0004b0 Value of p[j]: 981
+Single run time: 221822
+---------------------------------------------
+J:0 Address of p[j]: 0x1fff0004a0 Value of p[j]: 977
+J:1 Address of p[j]: 0x1fff0004a4 Value of p[j]: 978
+J:2 Address of p[j]: 0x1fff0004a8 Value of p[j]: 979
+J:3 Address of p[j]: 0x1fff0004ac Value of p[j]: 980
+J:4 Address of p[j]: 0x1fff0004b0 Value of p[j]: 981
+Single run time: 315083
+---------------------------------------------
+==8603== 
+==8603== I   refs:      2,558,688
+==8603== I1  misses:        1,890
+==8603== LLi misses:        1,793
+==8603== I1  miss rate:      0.07%
+==8603== LLi miss rate:      0.07%
+==8603== 
+==8603== D   refs:        803,602  (589,419 rd   + 214,183 wr)
+==8603== D1  misses:       16,860  ( 14,386 rd   +   2,474 wr)
+==8603== LLd misses:        9,848  (  8,267 rd   +   1,581 wr)
+==8603== D1  miss rate:       2.1% (    2.4%     +     1.2%  )
+==8603== LLd miss rate:       1.2% (    1.4%     +     0.7%  )
+==8603== 
+==8603== LL refs:          18,750  ( 16,276 rd   +   2,474 wr)
+==8603== LL misses:        11,641  ( 10,060 rd   +   1,581 wr)
+==8603== LL miss rate:        0.3% (    0.3%     +     0.7%  )
